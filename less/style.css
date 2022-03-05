@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+.Container {
+  max-height: 500px;
+  max-width: 500px;
+}
+.Container .Worm {
+  background-color: #0b8d4a;
+  height: 100px;
+  width: 100px;
+  animation-name: position;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes position {
+  0% {
+    height: 100px;
+    width: 100px;
+  }
+  25% {
+    height: 600px;
+    width: 50px;
+    transform: translate(0px, 0px);
+  }
+  35% {
+    height: 100px;
+    width: 100px;
+    transform: translate(0px, 500px);
+  }
+  45% {
+    height: 50px;
+    width: 600px;
+    transform: translate(0px, 500px);
+  }
+  55% {
+    height: 100px;
+    width: 100px;
+    transform: translate(500px, 500px);
+  }
+  65% {
+    height: 600px;
+    width: 50px;
+    transform: translate(500px, 0px);
+  }
+  75% {
+    height: 100px;
+    width: 100px;
+    transform: translate(500px, 0px);
+  }
+  90% {
+    height: 100px;
+    width: 600px;
+    transform: translate(0px, 0px);
+  }
+  100% {
+    height: 100px;
+    width: 100px;
+    transform: translate(0px, 0px);
+  }
+}
+/*# sourceMappingURL=style.css.map */
